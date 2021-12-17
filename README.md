@@ -23,11 +23,11 @@
 
 > install [node](https://nodejs.org/en/download/package-manager/) <
 
-> create an [algorand account on testnet](https://wallet.myalgo.com)
+> create an [algorand account on testnet](https://wallet.myalgo.com) <
 
-> fund it with [algos](https://thealgofaucet.com/)
+> fund it with [algos](https://thealgofaucet.com/) <
 
-> register on [purestake](https://developer.purestake.io/)
+> register on [purestake](https://developer.purestake.io/) <
 
 !!! record the API key that purestake provide you with !!!
 
