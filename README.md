@@ -45,7 +45,7 @@ pip install pyteal
 ## Compile + deploy contract
 
 ```
-cd ~/Scaffold-Algorand/scripts
+cd ~/Scaffold-Algorand/deploy
 python3 deploy.py
 ```
 
