@@ -1,2 +1,62 @@
-# Scaffold-Algo
-A simple workflow for deploying and testing a super easy contract!
+<h1 align="center">
+  <br>
+  Scaffold Algorand
+  <br>
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/pyteal-v0.9.1-blue"></img>
+  <img src="https://img.shields.io/badge/npm-v8.1.2-red"></img>
+  <img src="https://img.shields.io/badge/node-v16.13.1-green"></img>
+  <img src="https://img.shields.io/badge/algosdk-v1.12.0-orange"></img>
+</p>
+
+<p align="center"> :sun_with_face: Deploy a contract to testnet easily! :sun_with_face:</p>
+
+-----
+-----
+-----
+
+## Pre-Requisites
+
+> install [python](https://docs.python-guide.org/starting/install3/linux/) <
+
+> install [node](https://nodejs.org/en/download/package-manager/) <
+
+> create an [algorand account on testnet](https://wallet.myalgo.com)
+
+> fund it with [algos](https://thealgofaucet.com/)
+
+> register on [purestake](https://developer.purestake.io/)
+
+!!! record the API key that purestake provide you with !!!
+
+-----
+
+## Clone this repo
+
+```
+git clone git@github.com:alienflip/Scaffold-Algorand.git
+cd Scaffold-Algorand
+npm install algosdk
+pip install pyteal
+```
+
+## Compile + deploy contract
+
+```
+cd ~/Scaffold-Algorand/scripts
+python3 deploy.py
+```
+
+## Call contract
+
+```
+cd ~/Scaffold-Algorand/call
+node call.js
+```
+
+-----
+-----
+
+<p align="center"> :heavy_dollar_sign: 🍄 :heavy_dollar_sign: </p>
