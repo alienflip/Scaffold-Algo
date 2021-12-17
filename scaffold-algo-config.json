@@ -1,0 +1,16 @@
+"config": {
+  "purestake": {
+    "algod" : {
+        "key": "",
+        "host": "https://testnet-algorand.api.purestake.io/ps2",
+        "port": ""
+    }
+  },
+  "tatum": {
+    "algod" : {
+        "key": "",
+        "host": "https://testnet-algorand.api.purestake.io/ps2",
+        "port": ""
+    }
+  }
+}
