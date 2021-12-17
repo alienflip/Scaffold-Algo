@@ -9,7 +9,7 @@
   "tatum": {
     "algod" : {
         "key": "",
-        "host": "https://testnet-algorand.api.purestake.io/ps2",
+        "host": "",
         "port": ""
     }
   }
