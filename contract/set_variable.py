@@ -10,6 +10,7 @@ def set_variable():
 
    scratchCount = ScratchVar(TealType.uint64)
 
+   # set the variable on contract call
    setVar = Seq([
        scratchCount.store(App.globalGet(Bytes("Variable"))),
        App.globalPut(Bytes("Variable"), Btoi(Txn.application_args[0])),
