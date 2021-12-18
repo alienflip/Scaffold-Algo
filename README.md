@@ -27,9 +27,7 @@
 
 > fund it with [algos](https://thealgofaucet.com/) <
 
-> register on [purestake](https://developer.purestake.io/) <
-
-!!! record the API key that purestake provide you with !!!
+> register on [purestake](https://developer.purestake.io/) for your API key <
 
 -----
 
