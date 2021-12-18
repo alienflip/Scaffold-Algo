@@ -42,7 +42,7 @@ pip install pyteal
 
 ## Set network config
 
-in `scaffold-algo-config.json`, insert the api key from purestake in the `key` field
+in `scaffold-algo-config.json`, insert the API key from purestake in the `key` field
 
 ## Compile + deploy contract
 
