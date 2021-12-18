@@ -1,5 +1,5 @@
 const algosdk = require('algosdk');
-const config= require('../scaffold-algo-config.json'); 
+const config = require('../scaffold-algo-config.json'); 
 
 const client = new algosdk.Algodv2(
     token = {
