@@ -69,4 +69,4 @@ async function change_contract_variable_to (new_variable, contractAddr, appId_){
     await readGlobalState(client, contractAddr, appId_)
 };
 
-change_contract_variable_to(80085, "", ); // your contract address and contract id here
+change_contract_variable_to(666, "", ); // your contract address and contract id here
