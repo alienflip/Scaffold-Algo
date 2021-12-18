@@ -1,11 +1,12 @@
 const algosdk = require('algosdk');
+const config= require('../scaffold-algo-config.json'); 
 
 const client = new algosdk.Algodv2(
     token = {
-        'X-API-Key': '' // your api key here
+        'X-API-Key': config.purestake.algod.key
       },
-      host=  "https://testnet-algorand.api.purestake.io/ps2",
-      port = '',
+      host = config.purestake.algod.host,
+      port = config.purestake.algod.port,
 );
 
 let mnemonic = "" // your mneumonic here

@@ -7,17 +7,22 @@ from contracts.clear import clear
 # helper function for deployment and smart contntract compilation
 from waitForConfirmation import wait_for_confirmation
 
-# basic algo deployment requirements
+# basic algo network deployment requirements
 from algosdk.future import transaction
 from algosdk import account, mnemonic, logic
 from algosdk.v2client import algod
 import base64
 
+# load network config
+import json
+with open("../scaffold-algo-config.json", "r") as read_file:
+    config = json.load(read_file)
+
 # connect to purestake
 algod_client = algod.AlgodClient(
-    algod_token = "", 
-    algod_address = "https://testnet-algorand.api.purestake.io/ps2",
-    headers = {'X-API-Key': ''} # your api key here
+    algod_token = config["purestake"]["algod"]["port"], 
+    algod_address = config["purestake"]["algod"]["host"],
+    headers = {'X-API-Key': config["purestake"]["algod"]["key"]}
 )
 
 # give your account permission to deploy

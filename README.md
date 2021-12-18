@@ -37,7 +37,7 @@
 
 ```
 git clone git@github.com:alienflip/Scaffold-Algo.git
-cd Scaffold-Algorand
+cd Scaffold-Algo
 npm install algosdk
 pip install pyteal
 ```
