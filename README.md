@@ -12,6 +12,8 @@
 </p>
 
 <p align="center"> :sun_with_face: Deploy a contract to testnet easily! :sun_with_face:</p>
+<p align="center"> In this framework, we interact with a contract to set it's global variable and read it from the blockchain </p>
+
 
 -----
 -----
