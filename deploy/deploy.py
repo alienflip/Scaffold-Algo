@@ -64,6 +64,8 @@ def create_app(client, private_key, approval_program, clear_program, global_sche
     return app_id
 
 # declare application state storage (immutable)
+# note : mess around with these to increase the max/min size  
+# of the variable which the contract can handle
 local_ints, local_bytes, global_bytes, global_ints = 1, 1, 1, 1
 global_schema = transaction.StateSchema(global_ints, global_bytes)
 local_schema = transaction.StateSchema(local_ints, local_bytes)
