@@ -11,7 +11,7 @@ const client = new algosdk.Algodv2(
       port = config.purestake.algod.port,
 );
 
-let mnemonic = "" // your mneumonic here
+let mnemonic = config.mneumonic;
 let sender = algosdk.mnemonicToSecretKey(mnemonic);
 
 // interact with contract
