@@ -8,6 +8,7 @@ def set_variable():
        Return(Int(1))
    ])
 
+   # temporary space allocated
    scratchCount = ScratchVar(TealType.uint64)
 
    # set the variable on contract call using the application args field

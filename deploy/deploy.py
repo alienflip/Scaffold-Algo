@@ -2,8 +2,7 @@ import sys, json, base64
 sys.path.insert(0, '..')
 
 # load contracts
-from contracts.set_variable import set_variable
-from contracts.clear import clear
+from compile_contracts import return_compiled_program
 
 # helper function for deployment and smart contntract compilation
 from waitForConfirmation import wait_for_confirmation
@@ -29,20 +28,7 @@ creator_mnemonic = config["mneumonic"]
 private_key = mnemonic.to_private_key(creator_mnemonic)
 
 # compile contracts
-def compile_program(client, source_code):
-    compile_response = client.compile(source_code)
-    return base64.b64decode(compile_response['result'])
-
-with open("./set_variable.teal", "w") as f:
-    set_variable_contract = set_variable()
-    f.write(set_variable_contract)
-
-with open("./clear.teal", "w") as f:
-    clear_contract = clear()
-    f.write(clear_contract)
-
-set_variable_program_compiled = compile_program(algod_client, set_variable_contract)
-clear_program_compiled = compile_program(algod_client, clear_contract)
+set_variable_program_compiled, clear_program_compiled = return_compiled_program()
 
 # create new application
 def create_app(client, private_key, approval_program, clear_program, global_schema, local_schema):
