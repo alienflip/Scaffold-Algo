@@ -26,7 +26,7 @@ algod_client = algod.AlgodClient(
 )
 
 # give your account permission to deploy
-creator_mnemonic = "" # your mneumonic here
+creator_mnemonic = config["mneumonic"]
 private_key = mnemonic.to_private_key(creator_mnemonic)
 
 # compile contracts
