@@ -42,7 +42,7 @@ npm install algosdk
 pip install pyteal
 ```
 
-## Set network config + account config
+## Set network + account config
 
 in `scaffold-algo-config.json` 
 
