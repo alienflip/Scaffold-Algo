@@ -27,9 +27,6 @@ algod_client = algod.AlgodClient(
 creator_mnemonic = config["mneumonic"]
 private_key = mnemonic.to_private_key(creator_mnemonic)
 
-# compile contracts
-set_variable_program_compiled, clear_program_compiled = return_compiled_program()
-
 # create new application
 def create_app(client, private_key, approval_program, clear_program, global_schema, local_schema):
     # define sender as creator
@@ -62,6 +59,10 @@ def create_app(client, private_key, approval_program, clear_program, global_sche
     print("Created new app-id:", app_id)
 
     return app_id
+
+
+# compile contracts
+set_variable_program_compiled, clear_program_compiled = return_compiled_program()
 
 # declare application state storage (immutable)
 # note : mess around with these to increase the max/min size  
