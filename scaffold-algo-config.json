@@ -1,6 +1,7 @@
 {
   "mneumonic":"",
   "purestake": {
+    "xApiHeader":"X-API-Key",
     "algod" : {
         "key": "",
         "host": "https://testnet-algorand.api.purestake.io/ps2",
@@ -8,9 +9,10 @@
     }
   },
   "tatum": {
+    "xApiHeader":"x-api-key",
     "algod" : {
         "key": "",
-        "host": "",
+        "host": "https://api-eu1.tatum.io/v3/algorand/node/algod",
         "port": ""
     }
   }

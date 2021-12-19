@@ -1,8 +1,9 @@
 import sys, json, base64
 sys.path.insert(0, '..')
 
-# load contracts
+# load and compile contracts
 from compile_contracts import return_compiled_program
+set_variable_program_compiled, clear_program_compiled = return_compiled_program()
 
 # helper function for deployment and smart contntract compilation
 from waitForConfirmation import wait_for_confirmation
@@ -59,10 +60,6 @@ def create_app(client, private_key, approval_program, clear_program, global_sche
     print("Created new app-id:", app_id)
 
     return app_id
-
-
-# compile contracts
-set_variable_program_compiled, clear_program_compiled = return_compiled_program()
 
 # declare application state storage (immutable)
 # note : mess around with these to increase the max/min size  
