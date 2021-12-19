@@ -21,6 +21,8 @@
 
 ## Pre-Requisites
 
+> running linux, or using [wsl](https://ubuntu.com/wsl).
+
 > install [python](https://docs.python-guide.org/starting/install3/linux/) <
 
 > install [node](https://nodejs.org/en/download/package-manager/) <
