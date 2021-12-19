@@ -25,7 +25,7 @@
 
 > install [node](https://nodejs.org/en/download/package-manager/) <
 
-> create an [algorand account on testnet](https://wallet.myalgo.com) <
+> create an [algorand account on testnet](https://wallet.myalgo.com) for your mneumonic <
 
 > fund it with [algos](https://thealgofaucet.com/) <
 
@@ -42,7 +42,7 @@ npm install algosdk
 pip install pyteal
 ```
 
-## Set network config
+## Set network config + account config
 
 in `scaffold-algo-config.json`, insert the API key from purestake in the `key` field
 
