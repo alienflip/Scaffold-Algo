@@ -44,11 +44,11 @@ pip install pyteal
 
 ## Set network config + account config
 
-> in `scaffold-algo-config.json`
+in `scaffold-algo-config.json` ...
 
-insert the API key from purestake in the `key` field 
+> insert the API key from purestake in the `key` field <
 
-insert your account mneumonic in the `mneumonic` field
+> insert your account mneumonic in the `mneumonic` field <
 
 
 ## Compile + deploy contract
