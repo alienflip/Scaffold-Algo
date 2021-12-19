@@ -1,6 +1,7 @@
-# load contracts
-import sys
+import sys, json, base64
 sys.path.insert(0, '..')
+
+# load contracts
 from contracts.set_variable import set_variable
 from contracts.clear import clear
 
@@ -11,10 +12,8 @@ from waitForConfirmation import wait_for_confirmation
 from algosdk.future import transaction
 from algosdk import account, mnemonic, logic
 from algosdk.v2client import algod
-import base64
 
 # load network config
-import json
 with open("../scaffold-algo-config.json", "r") as read_file:
     config = json.load(read_file)
 

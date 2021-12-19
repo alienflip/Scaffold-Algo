@@ -12,8 +12,7 @@
 </p>
 
 <p align="center"> :sun_with_face: Deploy a contract to testnet easily! :sun_with_face:</p>
-<p align="center">🍄 In this framework, we interact with a contract to set it's global variable and read the display the change locally 🍄</p>
-
+<p align="center">🍄 In this framework, we interact with a contract to set it's global variable and read the change to local display 🍄</p>
 
 -----
 -----
@@ -21,7 +20,7 @@
 
 ## Pre-Requisites
 
-> running linux, or using [wsl](https://ubuntu.com/wsl).
+> running linux, or using [wsl](https://ubuntu.com/wsl) <
 
 > install [python](https://docs.python-guide.org/starting/install3/linux/) <
 
