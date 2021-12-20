@@ -19,9 +19,9 @@ with open("../scaffold-algo-config.json", "r") as read_file:
 
 # connect to purestake
 algod_client = algod.AlgodClient(
-    algod_token = config["purestake"]["algod"]["port"], 
-    algod_address = config["purestake"]["algod"]["host"],
-    headers = {'X-API-Key': config["purestake"]["algod"]["key"]}
+    algod_token = config["tatum"]["algod"]["port"], 
+    algod_address = config["tatum"]["algod"]["host"],
+    headers = {'x-api-key': config["tatum"]["algod"]["key"]}
 )
 
 # give your account permission to deploy
