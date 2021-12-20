@@ -30,7 +30,7 @@
 
 > fund it with [algos](https://thealgofaucet.com/) <
 
-> register on [purestake](https://developer.purestake.io/) for your API key <
+> register on [purestake](https://developer.purestake.io/) or [tatum](https://dashboard.tatum.io/) for your API key <
 
 -----
 
