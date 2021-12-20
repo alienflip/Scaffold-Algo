@@ -47,7 +47,7 @@ pip install pyteal
 
 in `scaffold-algo-config.json` 
 
-> insert the API key from purestake in the `key` field <
+> insert the API key from purestake or tatum in the `key` field <
 
 > insert your account mneumonic in the `mneumonic` field <
 
