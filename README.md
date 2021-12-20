@@ -30,7 +30,9 @@
 
 > fund it with [algos](https://thealgofaucet.com/) <
 
-> register on [purestake](https://developer.purestake.io/) or [tatum](https://dashboard.tatum.io/) for your API key. Note that you will have to change some script headers depending on which network you use. <
+> register on [purestake](https://developer.purestake.io/) or [tatum](https://dashboard.tatum.io/) for your API key <
+
+>> Note that you will have to change some script headers depending on which network you use. <
 
 -----
 
