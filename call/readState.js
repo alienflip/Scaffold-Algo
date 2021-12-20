@@ -3,10 +3,10 @@ const config = require('../scaffold-algo-config.json');
 
 const client = new algosdk.Algodv2(
     token = {
-        'X-API-Key': config.purestake.algod.key
+        'x-api-key': config.tatum.algod.key
       },
-      host = config.purestake.algod.host,
-      port = config.purestake.algod.port,
+      host = config.tatum.algod.host,
+      port = config.tatum.algod.port,
 );
 
 // read the variable in the contract on-chain to local console
