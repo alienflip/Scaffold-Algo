@@ -3,11 +3,12 @@ const config = require('../scaffold-algo-config.json');
 
 const client = new algosdk.Algodv2(
     token = {
-        'X-Api-Key': config.purestake.algod.key
+        'X-API-Key': config.purestake.algod.key
       },
       host = config.purestake.algod.host,
       port = config.purestake.algod.port,
 );
+
 // read the variable in the contract on-chain to local console
 module.exports.readGlobalState = async function (client, account, index){
     let accountInfoResponse = await client.accountInformation(account).do();
