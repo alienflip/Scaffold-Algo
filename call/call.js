@@ -5,7 +5,7 @@ const read_state = require("./readState.js");
 
 const client = new algosdk.Algodv2(
     token = {
-        'X-Api-Key': config.purestake.algod.key
+        'X-API-Key': config.purestake.algod.key
       },
       host = config.purestake.algod.host,
       port = config.purestake.algod.port,
