@@ -5,10 +5,10 @@ const read_state = require("./readState.js");
 
 const client = new algosdk.Algodv2(
     token = {
-        'x-api-key': config.tatum.algod.key
+        'X-Api-Key': config.purestake.algod.key
       },
-      host = config.tatum.algod.host,
-      port = config.tatum.algod.port,
+      host = config.purestake.algod.host,
+      port = config.purestake.algod.port,
 );
 
 let mnemonic = config.mneumonic;
