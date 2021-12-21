@@ -3,10 +3,10 @@ const config = require('../scaffold-algo-config.json');
 
 const client = new algosdk.Algodv2(
     token = {
-        'x-api-key': config.tatum.algod.key
+        'X-API-Key': config.purestake.algod.key
       },
-      host = config.tatum.algod.host,
-      port = config.tatum.algod.port,
+      host = config.purestake.algod.host,
+      port = config.purestake.algod.port,
 );
 
 // wati for block confirmation
