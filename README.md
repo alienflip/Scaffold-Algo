@@ -63,7 +63,7 @@ python3 deploy.py
 
 ## Call contract
 
-here you should change contract call variables, and then watch the change live!
+here you should [change contract call variables](https://github.com/alienflip/Scaffold-Algo/blob/1439fafafffe2bac65c138dda881ad01a60bba5b/call/call.js#L49), and then watch the change live!
 
 ```
 cd ~/Scaffold-Algorand/call
