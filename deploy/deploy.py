@@ -56,8 +56,10 @@ def create_app(client, private_key, approval_program, clear_program, global_sche
 
     # display results
     transaction_response = client.pending_transaction_info(tx_id)
-    app_id = transaction_response['application-index']
-    print("Created new app-id:", app_id)
+    
+    print("Contract data: \n")
+    print(transaction_response)
+    print("\n")
 
     return app_id
 
