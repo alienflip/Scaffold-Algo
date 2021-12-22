@@ -46,4 +46,4 @@ async function change_contract_variable_to (new_variable, contractAddr, appId_){
 
 // remeber : the max integer you can put in the following
 // depends on how large you set "global_int" to in the deployment
-change_contract_variable_to(7, "", ); // your contract address and contract id here
+change_contract_variable_to(0, "", 0); // your contract address and contract id here
