@@ -63,7 +63,7 @@ python3 deploy.py
 
 ## Call contract
 
-here you can mess around with setting the contracts variable, and watch the change live!
+here you should change contract call variables, and then watch the change live!
 
 ```
 cd ~/Scaffold-Algorand/call
