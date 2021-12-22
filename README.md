@@ -73,6 +73,4 @@ node call.js
 -----
 -----
 
-### Tatum Support In Development
-
 <p align="center"> :heavy_dollar_sign: 🍄 :heavy_dollar_sign: </p>
