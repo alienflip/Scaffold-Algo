@@ -11,8 +11,8 @@
   <img src="https://img.shields.io/badge/algosdk-v1.12.0-orange"></img>
 </p>
 
-<p align="center"> :sun_with_face: Deploy a contract to testnet easily! :sun_with_face:</p>
-<p align="center">🍄 In this framework, we interact with a contract to set it's global variable and read the change to local display 🍄</p>
+<p align="center"> :sun_with_face: Deploy ASA to testnet, with multi-account ownership! :sun_with_face:</p>
+<p align="center">🍄 In this framework, we interact with an ASA using layer 2 functionality 🍄</p>
 
 -----
 -----
@@ -21,8 +21,6 @@
 ## Pre-Requisites
 
 > running linux, or using [wsl](https://ubuntu.com/wsl) <
-
-> install [python](https://docs.python-guide.org/starting/install3/linux/) <
 
 > install [node](https://nodejs.org/en/download/package-manager/) <
 
@@ -42,7 +40,6 @@
 git clone git@github.com:alienflip/Scaffold-Algo.git
 cd Scaffold-Algo
 npm install algosdk
-pip install pyteal
 ```
 
 ## Set network + account config
@@ -54,20 +51,32 @@ in `scaffold-algo-config.json`
 > insert your account mneumonic in the `mneumonic` field <
 
 
-## Compile + deploy contract
+## Deploy ASA
 
 ```
-cd ~/Scaffold-Algorand/deploy
-python3 deploy.py
+cd ~/Scaffold-Algorand/main
+node generate_token.js
 ```
 
-## Call contract
+## Client Opt-In ASA
 
-here you should [change contract call variables](https://github.com/alienflip/Scaffold-Algo/blob/1439fafafffe2bac65c138dda881ad01a60bba5b/call/call.js#L49), and then watch the change live!
+>> copy id from generate into `recipient_opt_in.js`
 
 ```
-cd ~/Scaffold-Algorand/call
-node call.js
+cd ~/Scaffold-Algorand/client
+node recipient_opt_in.js
+```
+
+## Transfer ASA
+```
+cd ~/Scaffold-Algorand/main
+node transfer_token.js
+```
+
+## Change msig addresses (in dev)
+```
+cd ~/Scaffold-Algorand/main
+node rekey.js
 ```
 
 -----
