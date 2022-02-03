@@ -60,7 +60,7 @@ node generate_token.js
 
 ## Client Opt-In ASA
 
->> copy id from generate into `recipient_opt_in.js`
+>> copy id from `generate_token.js` into `recipient_opt_in.js`
 
 ```
 cd ~/Scaffold-Algorand/client
